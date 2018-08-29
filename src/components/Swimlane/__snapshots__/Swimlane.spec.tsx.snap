@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Swimlane Should match its snapshot 1`] = `
+<SwimlaneWrapper>
+  <div>
+    SAMPLE TITLE
+  </div>
+  <TicketWrapper
+    key="abc"
+  >
+    <Component
+      description="Some"
+      estimatedTime={20}
+      id="abc"
+      loggedTime={10}
+    />
+  </TicketWrapper>
+  <TicketWrapper
+    key="bc"
+  >
+    <Component
+      description="Some"
+      estimatedTime={20}
+      id="bc"
+      loggedTime={10}
+    />
+  </TicketWrapper>
+</SwimlaneWrapper>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board Header Should match its snapshot 1`] = `
+<BoardHeaderWrapper>
+  <BoardTitle>
+     
+    some name
+     
+  </BoardTitle>
+  <BoardDescription>
+     
+    some great description
+     
+  </BoardDescription>
+</BoardHeaderWrapper>
+`;

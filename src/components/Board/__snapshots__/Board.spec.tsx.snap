@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board Component Should match its snapshot 1`] = `
+<BoardWrapper>
+  <Component
+    description="Sample Description"
+    title="Sample Title"
+  />
+  <SwimlanesWrapper>
+    <SwimlaneWrapper
+      key="abc"
+      numberLanes={2}
+    >
+      <Component
+        id="abc"
+        tickets={
+          Array [
+            Object {
+              "description": "Some",
+              "estimatedTime": 20,
+              "id": "abc",
+              "loggedTime": 10,
+            },
+            Object {
+              "description": "Some",
+              "estimatedTime": 20,
+              "id": "bc",
+              "loggedTime": 10,
+            },
+          ]
+        }
+        title="Swimlane 1"
+      />
+    </SwimlaneWrapper>
+    <SwimlaneWrapper
+      key="def"
+      numberLanes={2}
+    >
+      <Component
+        id="def"
+        tickets={
+          Array [
+            Object {
+              "description": "Some",
+              "estimatedTime": 20,
+              "id": "c",
+              "loggedTime": 10,
+            },
+            Object {
+              "description": "Some",
+              "estimatedTime": 20,
+              "id": "d",
+              "loggedTime": 10,
+            },
+          ]
+        }
+        title="Swimlane 2"
+      />
+    </SwimlaneWrapper>
+  </SwimlanesWrapper>
+</BoardWrapper>
+`;

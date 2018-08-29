@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Circular Filter List Should match its snapshot 1`] = `
+<div>
+  <CircularFilterItemWrapper
+    key="abc"
+  >
+    <Component
+      filterText="Filter 1"
+      id="abc"
+      onClickFunction={[Function]}
+      selected={false}
+    />
+  </CircularFilterItemWrapper>
+  <CircularFilterItemWrapper
+    key="def"
+  >
+    <Component
+      filterText="Filter 2"
+      id="def"
+      onClickFunction={[Function]}
+      selected={false}
+    />
+  </CircularFilterItemWrapper>
+</div>
+`;

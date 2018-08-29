@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ticket Component Should match its snapshot 1`] = `
+<WithStyles(Card)>
+  <CardContentWrapper>
+    <CardIdWrapper>
+      KGSM-123
+    </CardIdWrapper>
+    <CardDescriptionWrapper>
+       
+      Some Description
+       
+    </CardDescriptionWrapper>
+    <CardMetaDataWrapper>
+      <div>
+         
+        K.G. OHearon
+         
+      </div>
+      <div>
+         
+        10
+         
+      </div>
+    </CardMetaDataWrapper>
+  </CardContentWrapper>
+</WithStyles(Card)>
+`;
